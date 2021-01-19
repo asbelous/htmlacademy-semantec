@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Страница каталога</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="#">
+				<img src="img/logo.svg" width="184" height="29" alt="Логотип">
+			</a>
+			<ul>
+				<li><a href="#">Велосипеды</a></li>
+				<li><a href="#">Аксессуары</a></li>
+				<li><a href="#">Запчасти</a></li>
+				<li><a href="#">Мастерская</a></li>
+				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<a href="#">Личный кабинет пользователя</a>
+			<a href="#">Поиск</a>
+			<a href="#">Корзина</a>
+		</nav>
+	</header>
+	<main>
+		<h2 class="visually-hidden">Выбор велосипеда</h2>
+		<aside class="filter">
+			<h3 class="visually-hidden">Фильтры</h3>
+			<section class="price">
+				<h4>Цена</h4>
+				<label for="min-price">Цена за велосипед, от</label>
+				<input id="min-price" type="text" placeholder="28000">
+				<label for="max-price">Цена за велосипед, до</label>
+				<input id="max-price" type="text" placeholder="180000">
+			</section>
+			<section class="electro">
+				<h4>Электровелосипед</h4>
+				<label for="yes-electro">Да</label>
+				<input id="yes-electro" type="checkbox">
+				<label for="no-electro">Нет</label>
+				<input id="no-electro" type="checkbox">
+			</section>
+			<section class="material">
+				<h4>Материал рамы</h4>
+				<label for="material-steel">Сталь</label>
+				<input id="material-steel" type="checkbox" checked>
+				<label for="material-carbon">Карбон</label>
+				<input id="material-carbon" type="checkbox">
+			</section>
+		</aside>
+	</main>
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="#">Велосипеды</a></li>
+				<li><a href="#">Аксессуары</a></li>
+				<li><a href="#">Запчасти</a></li>
+				<li><a href="#">Мастерская</a></li>
+				<li><a href="#">Тест-драйв</a></li>
+				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#">Рассрочка</a></li>
+				<li><a href="#">Вступление в клуб</a></li>
+			</ul>
+		</nav>
+		<ul class="social">
+			<li><a href="#">Вконтакте</a></li>
+			<li><a href="#">Фейсбук</a></li>
+			<li><a href="#">Инстаграм</a></li>
+		</ul>
+		<a href="#">
+			<img src="img/logo-footer.svg" width="184" height="30" alt="Логотип">
+		</a>
+		<p>©2018</p>
+		<p>Политика конфиденциальности</p>
+	</footer>
+</body>
+
+</html>
